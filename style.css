@@ -140,28 +140,40 @@ body {
 }
 
 
-.features-content {
+.features-content article {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 1.6;
     text-align: left;
     /* Garante que o texto flua da esquerda */
     align-items: flex-start;
     /* Alinha os artigos à esquerda do container */
+    margin-left: 0;
+
+    margin-top: 4.8rem;
+
+
 
 }
 
 .features-content h3 {
+    width: fit-content;
+    display: block;
     font-size: 1.2rem;
     /* Aumentei um pouco para legibilidade */
     font-weight: 700;
-    margin: 0 0 10px 0;
+    margin: 0;
     /* Margem apenas na parte de baixo para afastar do P */
     padding: 0;
     /* Remove qualquer espaço interno */
+    line-height: 1.6;
+    /* Melhora a leitura;*/
+    padding: 0;
+    /* Remove qualquer espaço interno */
     color: hsl(210, 10%, 33%);
+    text-align: left;
 }
 
 .features-content p {
@@ -177,8 +189,9 @@ body {
     padding: 0;
     /* Garante que comece do ponto zero */
     color: hsl(201, 11%, 66%);
-    text-align: left;
+
     /* Reforça o alinhamento à esquerda */
+    text-align: left;
 }
 
 .devices {
@@ -333,8 +346,13 @@ img {
 .logo-footer {
     width: 40px;
     height: 40px;
-    margin-left: 150px;
-    margin-top: 20px;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.footer-content {
+    display: flex;
+    margin-left: 200px;
 }
 
 .nav-footer {
@@ -343,6 +361,7 @@ img {
     flex-grow: 1;
     justify-content: space-between;
     margin-left: 50px;
+
 }
 
 .footer-menu {
@@ -393,7 +412,7 @@ img {
     margin-right: 90px;
 
     /* Garante que o conteúdo dentro dele fique alinhado à direita */
- 
+
     list-style: none;
     gap: 30px;
     margin-top: 40px;
@@ -405,7 +424,7 @@ img {
     transition: transform 0.3s ease;
 }
 
-.social-media a:hover img{
+.social-media a:hover img {
     transition-duration: 0.3s ease;
     transform: scale(1.2);
 }
