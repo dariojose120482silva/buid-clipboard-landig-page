@@ -179,7 +179,7 @@ body {
     /* Peso normal para parágrafos */
     line-height: 1.6;
     /* Melhora a leitura */
-    max-width: 320px;
+    max-width: 35ch;
     /* Controla onde o texto quebra */
     margin: 0;
     /* Remove margens que podem desalinhá-lo */
