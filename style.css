@@ -143,15 +143,16 @@ body {
 .features-content article {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
     line-height: 1.6;
     text-align: left;
     /* Garante que o texto flua da esquerda */
+    width: 100%;
     align-items: flex-start;
     /* Alinha os artigos à esquerda do container */
-    margin-left: 0;
-    margin-top: 4.8rem;
+   margin-top: 4.6875rem;
+     /* Aumenta o espaçamento entre os artigos */
+    margin-bottom: 2.5rem;
+     /* Adiciona um espaçamento entre os artigos */
 }
 
 .features-content h3 {
@@ -174,7 +175,7 @@ body {
 
 .features-content p {
     font-size: 0.9rem;
-    font-weight: 400;
+    font-weight: 500;
     /* Peso normal para parágrafos */
     line-height: 1.6;
     /* Melhora a leitura */
